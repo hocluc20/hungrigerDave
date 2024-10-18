@@ -11,11 +11,11 @@ import Menu from '@mui/material/Menu';
 import MenuItem from '@mui/material/MenuItem';
 import { useNavigate } from "react-router-dom";
 
-import logo from '../assets/react.svg';  // Path to your logo
+import logo from '../../public/schnitzlsemmel.jpg';  // Path to your logo
 
 const Navbar: React.FC = () => {
-    const pages = ["Impressum"];
-    const links = ["/impressum"];
+    const pages = ["Impressum","Übersicht"];
+    const links = ["/impressum","/main"];
     const settings = ["Profil","Ausloggen"];
     const [anchorElUser, setAnchorElUser] = React.useState<null | HTMLElement>(null);
     const navigate = useNavigate();

@@ -13,21 +13,22 @@ const Signin = () => {
     const navigate = useNavigate();
 
     const handleLogin = () => {
-        axios.get(`http://localhost:4000/login`, {
-            params: {
-                email: email,
-                password: password
-            }
-        })
-            .then(res => res.data)
-            .then(data => {
-                console.log("test")
-                navigate('/main', { state: data })
-            })
-            .catch(function (error) {
-                alert(error);
-                setValid(false);
-            });
+        // axios.get(`http://localhost:4000/login`, {
+        //     params: {
+        //         email: email,
+        //         password: password
+        //     }
+        // })
+        //     .then(res => res.data)
+        //     .then(data => {
+        //         console.log("test")
+        //         navigate('/main', { state: data })
+        //     })
+        //     .catch(function (error) {
+        //         alert(error);
+        //         setValid(false);
+        //     });
+        navigate('/main')
     };
 
     return (

@@ -19,7 +19,7 @@ function Copyright() {
 
 
             <br/>
-            <h3>xyzxyzxyzxyzxyz</h3>
+            <h3>Made by Lukas and Maxi 5CHIF</h3>
             <Link  fontSize="large" color="inherit" href="https://www.instagram.com/">
                 <InstagramIcon/>
             </Link>
@@ -58,7 +58,7 @@ export default function Footer() {
                 >
                     <Container maxWidth="sm">
                         <Typography variant="body1" color="white">
-                            <h2>xyzxyzxyzxyzxyzxyzxyz</h2>
+                            <h2>HungrigerDave</h2>
                         </Typography>
                         <Copyright />
                     </Container>

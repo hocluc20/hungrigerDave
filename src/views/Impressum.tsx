@@ -12,21 +12,21 @@ const Impressum = () => {
                     <Grid item xs={12}>
                         <Typography variant="h6">Information according to § 5 TMG</Typography>
                         <Typography>
-                            <strong>Company Name: </strong>Your Company Name GmbH
+                            <strong>Company Name: </strong>HTBLA Kaindorf
                             <br />
-                            <strong>Address: </strong>Example Street 1, 12345 Sample City, Country
+                            <strong>Address: </strong>Kaindorf an der Sulm
                             <br />
-                            <strong>Telephone: </strong>+49 123 456789
+                            <strong>Telephone: </strong>+43 123 456789
                             <br />
-                            <strong>Email: </strong>info@example.com
+                            <strong>Email: </strong>office@htl-kaindorf.at
                             <br />
-                            <strong>Website: </strong>www.example.com
+                            <strong>Website: </strong>www.htl-kaindorf.com
                         </Typography>
                     </Grid>
 
                     <Grid item xs={12}>
                         <Typography variant="h6">Represented by:</Typography>
-                        <Typography>John Doe (Managing Director)</Typography>
+                        <Typography>DI Dr. Direktorin Maria Grasmugg</Typography>
                     </Grid>
 
                     <Grid item xs={12}>
